@@ -6,3 +6,4 @@ sources:
     tables:
       - name: students
       - name: teachers
+      - name: courses
