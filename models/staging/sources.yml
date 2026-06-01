@@ -5,11 +5,3 @@ sources:
     schema: public
     tables:
       - name: students
-
-
-
-
-
-
-
-

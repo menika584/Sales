@@ -5,8 +5,8 @@ my_dbt_project:
       type: postgres
       host: localhost
       port: 5432
-      user: dbt_user
-      password: dbt_password
-      dbname: my_dbt_db
+      user: postgres
+      password: postgres
+      dbname: postgres
       schema: dbt_dev          # dbt will create this schema and write models here
       threads: 4
