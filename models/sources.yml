@@ -9,3 +9,4 @@ sources:
       - name: courses
       - name: departments
       - name: employees
+      - name: company
