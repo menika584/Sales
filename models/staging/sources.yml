@@ -7,4 +7,5 @@ sources:
       - name: students
       - name: teachers
       - name: courses
+      - name: departments
       - name: employees
