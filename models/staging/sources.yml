@@ -8,3 +8,4 @@ sources:
       - name: teachers
       - name: courses
       - name: employees
+      - name: departments
