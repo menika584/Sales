@@ -9,8 +9,6 @@ sources:
       - name: courses
       - name: employees
       - name: departments
-      - name: departments
-      - name: employees
       - name: company
 
 
