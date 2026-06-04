@@ -15,3 +15,26 @@ models:
         tests:
           - not_null
           - unique
+  - name: stg_students
+
+    columns:
+      - name: student_id
+        tests:
+          - unique
+          - not_null
+
+      - name: student_email
+        tests:
+          - not_null
+  - name: stg_courses
+
+    columns:
+        - name: course_id
+          tests:
+            - not_null
+
+        - name: student_id
+          tests:
+            - not_null
+
+
