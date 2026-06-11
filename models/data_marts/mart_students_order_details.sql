@@ -34,6 +34,7 @@ FROM students s
 LEFT JOIN orders o
     ON CAST(s.student_id AS VARCHAR) = o.student_id
 
+
 GROUP BY
     s.student_id,
     s.student_name,

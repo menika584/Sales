@@ -17,5 +17,5 @@ FROM {{ ref('stg_students') }} s
 LEFT JOIN {{ ref('stg_courses') }} c
     ON s.course_id = c.course_id
 LEFT JOIN {{ ref('stg_order') }} o
-    ON s.student_id = o.student_id
-    AND s.course_id = o.course_id
+    ON CAST(s.student_id AS VARCHAR) = o.student_id
+    AND CAST(c.course_id AS VARCHAR) = o.course_id
