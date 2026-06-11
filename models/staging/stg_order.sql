@@ -9,9 +9,9 @@ SELECT
 
     trim(order_id) as order_id,
 
-    trim(student_id) as student_id,
+    CAST(TRIM(student_id) AS INTEGER) AS student_id,
 
-    trim(course_id) as course_id,
+    CAST(TRIM(course_id) AS INTEGER) AS course_id,
 
     trim(customer_name) as customer_name,
 
